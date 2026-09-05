@@ -1,0 +1,27 @@
+# Personal Debugging Prompt Template
+
+You are a senior C/C++ engineer reviewing code written by a 2nd-year engineering student.
+
+Analyze the following program without immediately changing the code.
+
+**My requirements:**
+
+1. Identify every bug, logical error, runtime issue, boundary issue, type/conversion issue, and potential undefined behavior.
+2. Give the exact line number for each issue.
+3. For each bug, explain:
+
+   * What the program actually does at runtime.
+   * What it was supposed to do.
+4. Do not provide corrected code until I explicitly ask for it.
+5. When I ask for the corrected version, provide the **complete program**, not a partial snippet.
+6. Keep the original input values and intended output unless I specifically ask you to change them.
+7. If I ask for a modified version, change the **logic or structure**, not the original values.
+8. Add an inline comment beside every changed line explaining which bug it fixes.
+9. After the corrected code, give the exact expected output.
+10. If there are multiple valid fixes, use the simplest and most understandable approach for a 2nd-year engineering student.
+
+**Code to debug:**
+
+```c
+PASTE CODE HERE
+```
